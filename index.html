@@ -9,51 +9,58 @@
     <link rel="stylesheet" href="estilo.css" />
 </head>
 
+<style>
+    .cards {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        flex: 1;
+        background: #fff;
+        padding: 16px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+
+
+    .hero {
+        text-align: center;
+        margin: 20px 0;
+    }
+</style>
+
+</head>
+
 <body>
     <header class="site-header">
         <div class="logo">MeuSite</div>
     </header>
 
-
-
     <main class="content">
         <section class="hero">
-            <h1>Layout</h1>
-
-            <div class="actions">
-
-
-            </div>
+            <h1>Layout Flex</h1>
         </section>
-
 
         <section class="cards">
             <article class="card">
                 <h4>Card 1</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </article>
+
             <article class="card">
                 <h4>Card 2</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-                    voluptates nihil soluta rem eveniet tempora perspiciatis esse facilis quos dolore?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </article>
+
             <article class="card">
                 <h4>Card 3</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Veritatis quidem, tenetur ipsam, nihil veniam ad soluta sunt
-                    voluptatibus corporis, neque mollitia ex? Et ut aperiam optio itaque.
-                    Reiciendis, perspiciatis assumenda.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </article>
         </section>
     </main>
-    </div>
+
     <footer class="site-footer">
         <p>© <span id="ano"></span> MeuSite.</p>
-    </footer>
-    <script>
-
-        document.getElementById('ano').textContent = new Date().getFullYear();
-    </script>
-</body>
-
-</html>
+        </fo
